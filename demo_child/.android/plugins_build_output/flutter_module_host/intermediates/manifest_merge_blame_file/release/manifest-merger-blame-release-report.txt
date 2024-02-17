@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bingo.flutter_module_host" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/tanzhihui/Develop/stand_flutter/flutter_module_host/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="19" />
+7-->/Users/tanzhihui/Develop/stand_flutter/flutter_module_host/android/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/tanzhihui/Develop/stand_flutter/flutter_module_host/android/src/main/AndroidManifest.xml:4:5-9:19
+10        <activity
+10-->/Users/tanzhihui/Develop/stand_flutter/flutter_module_host/android/src/main/AndroidManifest.xml:5:9-8:55
+11            android:name="com.bingo.StandFlutterActivity"
+11-->/Users/tanzhihui/Develop/stand_flutter/flutter_module_host/android/src/main/AndroidManifest.xml:6:13-58
+12            android:process=":stand_flutter"
+12-->/Users/tanzhihui/Develop/stand_flutter/flutter_module_host/android/src/main/AndroidManifest.xml:7:13-45
+13            android:theme="@style/StandLaunchTheme" />
+13-->/Users/tanzhihui/Develop/stand_flutter/flutter_module_host/android/src/main/AndroidManifest.xml:8:13-52
+14    </application>
+15
+16</manifest>

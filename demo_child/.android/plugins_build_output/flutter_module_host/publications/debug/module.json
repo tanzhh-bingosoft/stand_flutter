@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bingo.flutter_module_host",
+    "module": "flutter_module_host_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-bd986c5ed20a62dc34b7718c50abc782beae4c33"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_module_host_debug-1.0.aar",
+          "url": "flutter_module_host_debug-1.0.aar",
+          "size": 26060,
+          "sha512": "66d242f63325a65af3007b9a1b0b8c5e6af6c95e332b466bc07ae2fbbed571eefd7c4cdb07831319846c255f1865fddcc6d5961616f7878713d9e26797b311e4",
+          "sha256": "6b1b8ae55e06dc8b3c0c5baba72efb694fe6c1a7881048191494d7727d423a8f",
+          "sha1": "d91987bbbc300a1d2e261cfd1d0501610c3ac034",
+          "md5": "5e3092d83d2203d43a80405bf6a657d1"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-bd986c5ed20a62dc34b7718c50abc782beae4c33"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_module_host_debug-1.0.aar",
+          "url": "flutter_module_host_debug-1.0.aar",
+          "size": 26060,
+          "sha512": "66d242f63325a65af3007b9a1b0b8c5e6af6c95e332b466bc07ae2fbbed571eefd7c4cdb07831319846c255f1865fddcc6d5961616f7878713d9e26797b311e4",
+          "sha256": "6b1b8ae55e06dc8b3c0c5baba72efb694fe6c1a7881048191494d7727d423a8f",
+          "sha1": "d91987bbbc300a1d2e261cfd1d0501610c3ac034",
+          "md5": "5e3092d83d2203d43a80405bf6a657d1"
+        }
+      ]
+    }
+  ]
+}

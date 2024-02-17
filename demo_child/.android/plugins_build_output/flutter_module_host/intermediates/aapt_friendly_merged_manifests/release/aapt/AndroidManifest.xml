@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bingo.flutter_module_host" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application>
+        <activity
+            android:name="com.bingo.StandFlutterActivity"
+            android:process=":stand_flutter"
+            android:theme="@style/StandLaunchTheme" />
+    </application>
+
+</manifest>

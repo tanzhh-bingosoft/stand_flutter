@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bingo.flutter_module_host">
+
+    <application>
+        <activity
+            android:name="com.bingo.StandFlutterActivity"
+            android:process=":stand_flutter"
+            android:theme="@style/StandLaunchTheme" />
+    </application>
+</manifest>

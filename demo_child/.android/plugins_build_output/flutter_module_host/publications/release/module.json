@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bingo.flutter_module_host",
+    "module": "flutter_module_host_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-bd986c5ed20a62dc34b7718c50abc782beae4c33"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_module_host_release-1.0.aar",
+          "url": "flutter_module_host_release-1.0.aar",
+          "size": 24276,
+          "sha512": "e0f4869218d0378b4a589af6f42012106e150168f65f6609f81cd1e9d28bf399b094a38ff25c2c369f3c3b3ad019030641cc09e727497dab4235e6daf0a47d50",
+          "sha256": "e8ff6f6c83a372ba3f28c766a164f3333b09cb2fa65acdebaa2d461954fbef69",
+          "sha1": "bb989cfd5d6bfb427e81b8d4c1f50b5846729352",
+          "md5": "ecab92dae210ea2ce97ab52e24b0b0bb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-bd986c5ed20a62dc34b7718c50abc782beae4c33"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_module_host_release-1.0.aar",
+          "url": "flutter_module_host_release-1.0.aar",
+          "size": 24276,
+          "sha512": "e0f4869218d0378b4a589af6f42012106e150168f65f6609f81cd1e9d28bf399b094a38ff25c2c369f3c3b3ad019030641cc09e727497dab4235e6daf0a47d50",
+          "sha256": "e8ff6f6c83a372ba3f28c766a164f3333b09cb2fa65acdebaa2d461954fbef69",
+          "sha1": "bb989cfd5d6bfb427e81b8d4c1f50b5846729352",
+          "md5": "ecab92dae210ea2ce97ab52e24b0b0bb"
+        }
+      ]
+    }
+  ]
+}
